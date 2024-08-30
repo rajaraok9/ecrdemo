@@ -13,7 +13,7 @@ pipeline {
         //Do not edit REPOSITORY_URI.
         REPOSITORY_URI = "${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_DEFAULT_REGION}.amazonaws.com/${IMAGE_REPO_NAME}"
 	    registryCredential = "rajaecr_user"
-	    JOB_NAME = "ecs-ecr"
+	    JOB_NAME = "ecsjob"
 	    TEST_CONTAINER_NAME = "${JOB_NAME}-test-server"
     
 }
