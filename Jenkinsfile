@@ -6,7 +6,7 @@ pipeline {
 	    CLUSTER_NAME="repodemo-cluster"
 	    SERVICE_NAME="nodejs-web-service"
 	    TASK_DEFINITION_NAME="nodejs-webserver"
-	    DESIRED_COUNT="1"
+	    DESIRED_COUNT="10"
         IMAGE_REPO_NAME="repodemo"
         //Do not edit the variable IMAGE_TAG. It uses the Jenkins job build ID as a tag for the new image.
         IMAGE_TAG="${env.BUILD_ID}"
