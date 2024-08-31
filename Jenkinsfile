@@ -17,7 +17,7 @@ pipeline {
 	    TEST_CONTAINER_NAME = "${JOB_NAME}-test-server"
     
 }
-    
+     
     stages {
 
     // Building Docker image
